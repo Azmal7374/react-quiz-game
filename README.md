@@ -34,5 +34,5 @@ Features
 
     
 
- 
- 
+ ![Live Site Link](https://willowy-tarsier-5eec12.netlify.app/)
+ ![Github Link](https://github.com/Azmal7374/react-quiz-game)
