@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../Authentication/AuthContext';
 
@@ -89,7 +89,7 @@ const GameScreen = () => {
         setCurrentQuestionIndex(currentQuestionIndex + 1);
       } else {
         // User has completed all questions, navigate to the result screen or perform other actions
-        navigate('/game');
+        navigate('/result');
       }
     }
   };
@@ -128,7 +128,7 @@ const progressText = `${correctAnswers}/${currentQuestionIndex + 1}`;
          key={index}
          onClick={() => handleAnswerClick(option)}
          className={`text-center cursor-pointer font-bold bg-purple-600 p-4 w-40 md:w-64 shadow-lg mt-4 text-xl md:text-3xl text-white rounded-md ${
-           selectedOption === option ? 'border' : 'bg-gray-200'
+           selectedOption === option ? 'border shadow-2xl border-white' : ''
          }`}
        >
          {option}

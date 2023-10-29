@@ -4,6 +4,7 @@
 ### Screenshots
 ![Login Page](image.png)
 ![Game Page](image-1.png)
+![Welcome](image-2.png)
 
 
 Features

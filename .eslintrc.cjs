@@ -18,6 +18,7 @@ module.exports = {
      
     ],
     'react/prop-types':0,
-    'react/jsx-no-undef':0
+    'react/jsx-no-undef':0,
+    'no-unused-vars':0,
   },
 }
